@@ -21,9 +21,12 @@ const Topborder = () => {
                 <Navbar.Brand href='/'>HOME</Navbar.Brand>
                 <Nav className="mr-auto">
                     <Nav.Link href="/Fooditem ">MENU</Nav.Link>
+                  
+                    {/* <Nav.Link href="/Reviews ">REVIEWS</Nav.Link> */} 
+                    <Nav.Link href="/addfood ">ADD FOOD</Nav.Link>
+                    <Nav.Link href="/read ">REVIEW</Nav.Link>  
                     <Nav.Link href="/contact ">CONTACT ME</Nav.Link>
-                    <Nav.Link href="/Reviews ">REVIEWS</Nav.Link>
-                    <Nav.Link href="/addfood ">ADD Food</Nav.Link>
+                   
                 </Nav>
                 <Form inline>
                     <Button variant="outline-info" onClick={logout}>LogOut</Button>
@@ -163,7 +166,7 @@ const Topborder = () => {
 
 
                 <div class="p-2 bd-highlight justify-content-center text-center ">
-                    <MDBMedia>
+                    {/* <MDBMedia>
 
                         <MDBMedia left className="mr-3 text-center" href="https://www.facebook.com/bansuanpay/" class="card" >
                             <MDBMedia object src="https://www.aniaetleprogrammeur.com/wp-content/uploads/2019/09/facebook-new-misinformation-measures-1.png" width="150" height="100" className="mr-3 justify-content-center text-center" />
@@ -185,7 +188,7 @@ const Topborder = () => {
                         </MDBMedia>
                         <MDBMedia body class="justify-content-center ">
                          </MDBMedia>
-                    </MDBMedia>
+                    </MDBMedia> */}
                 </div>
             </div>
 

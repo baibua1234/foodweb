@@ -20,8 +20,9 @@ return (
             <Navbar.Brand href='/'>HOME</Navbar.Brand>
             <Nav className="mr-auto">
                 <Nav.Link href="/Fooditem ">MENU</Nav.Link>
+                <Nav.Link href="/addfood ">ADD FOOD</Nav.Link>
+                <Nav.Link href="/read ">REVIEWS</Nav.Link>
                 <Nav.Link href="/contact ">CONTACT ME</Nav.Link>
-                <Nav.Link href="/Reviews ">REVIEWS</Nav.Link>
             </Nav>
             <Form inline>
                 <Button variant="outline-info" onClick={logout}>LogOut</Button>

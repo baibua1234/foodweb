@@ -2,7 +2,7 @@ import React from 'react'
 import fire from "../../firebasa/fire";
 import { useState } from "react";
 import db2 from "../../firebasa/fire";
-
+import Topborder from '../Topborder';
 import { Button, Navbar, Nav, Form } from 'react-bootstrap'
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBtn, MDBCardTitle } from 'mdbreact';
 
@@ -25,6 +25,7 @@ const Read = () => {
     }
     return (
         <div>
+
             <center>
                 <h2>Food Detail</h2>
             </center>
@@ -44,7 +45,7 @@ const Frame = ({ Name, Calorie }) => {
     return (
         <center>
             <div>
-
+               
                 <div>
                     <MDBCard className="my-5 px-5 pb-5 ">
                         <MDBCardBody>
@@ -58,7 +59,7 @@ const Frame = ({ Name, Calorie }) => {
                                 <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
                                 <img
                                     className="img-fluid"
-                                    src="https://i.ytimg.com/vi/aSx1T1e8co0/maxresdefault.jpg"
+                                    src="https://i.pinimg.com/236x/ea/32/db/ea32db203212d5bbc60e09a12d985893.jpg"
                                     alt=""
                                 />
                                 <a href="#!">
@@ -76,15 +77,15 @@ const Frame = ({ Name, Calorie }) => {
                                 <h3 className="font-weight-bold mb-3 p-0">
                                 <strong>{Name}</strong>
                                 </h3>
-                                <p>
+                                {/* <p>
                                 อร่อยมากเลยค่า ปลาหมึกกรอบและสดมากค่า น้ำต้มยำก็แซ่บเหมาะกับคนที่ทานเผ็ด
-                                </p>
+                                </p> */}
                                 <p>{Calorie}</p>
                                 <p>
                                 
-                                <a href="#!">
+                                {/* <a href="#!">
                                     <strong>พิกัดร้านตากลมอาหารตามสั่ง</strong>
-                                </a>
+                                </a> */}
                                 
                                 </p>
                                 </MDBCol>
