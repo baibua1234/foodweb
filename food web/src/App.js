@@ -11,7 +11,8 @@ import contact from './components/contact';
 import Reviews from './components/Reviews';
 import Firestore from './components/fetch/read';
 import Read from './components/fetch/read2';
-import App2 from './components/fetch/getFire';
+import PageDetail from './components/fetch/detailpage';
+import Detail from './components/fetch/detail';
 
 class App extends Component {
 
@@ -53,6 +54,8 @@ class App extends Component {
           <Route path="/Reviews" component={Reviews} />
           <Route path="/addfood" component={Firestore} />
           <Route path="/read" component={Read} />
+          <Route path="/food" component={PageDetail} />
+          <Route path="/detail/:id" component={Detail} />
         </div>
       </div>
 

@@ -8,9 +8,8 @@ const firebaseConfig = {
   storageBucket: "buatodo-272e3.appspot.com",
   messagingSenderId: "401686557095",
   appId: "1:401686557095:web:3c3853e9e4e43bd12d4682",
-  // measurementId: "G-QWBKMXG31B"
 };
 
 const fire = firebase.initializeApp(firebaseConfig)
-export const db2 = firebase.firestore();
+export const storage = firebase.storage();
 export default fire;

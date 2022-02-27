@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "test-22087"
-  }
+    "default": "buatodo-272e3",
+    "lotus": "buatodo-272e3"
+  },
+  "targets": {}
 }

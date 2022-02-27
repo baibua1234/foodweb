@@ -41,7 +41,7 @@ return (
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
-                src="https://www.technologychaoban.com/wp-content/uploads/2018/02/5-9.jpg"
+                src=""
                 alt=""
               />
               <a href="#!">
@@ -57,16 +57,15 @@ return (
               </h6>
             </a>
             <h3 className="font-weight-bold mb-3 p-0">
-              <strong>กวยจั๊บญวณ</strong>
+              <strong></strong>
             </h3>
-            <p>
-              อร่อยมากๆเลยค่า เส้นเหนียวนุ่ม
+            <p>              
             </p>
 
             <p>
               
               <a href="#!">
-                <strong>พิกัดสวนปลาย</strong>
+                <strong></strong>
               </a>
             </p>
             </MDBCol>
@@ -78,7 +77,7 @@ return (
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
-                src="https://us-fbcloud.net/wb/data/986/986957-img.s1g8vv.0p.jpg"
+                src=""
                 alt=""
               />
               <a href="#!">
@@ -94,15 +93,14 @@ return (
               </h6>
             </a>
             <h3 className="font-weight-bold mb-3 p-0">
-              <strong>แกงพะแนงเนื้อ</strong>
+              <strong></strong>
             </h3>
-            <p>
-              อร่อยมากๆเลยค่า 10 10 10 ไปเลย
+            <p>              
             </p>
             <p>
             
               <a href="#!">
-                <strong>พิกัดร้านส.แดกไม่หยุด</strong>
+                <strong></strong>
               </a>
             </p>
              </MDBCol>
@@ -114,44 +112,7 @@ return (
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
-                src="https://i.ytimg.com/vi/aSx1T1e8co0/maxresdefault.jpg"
-                alt=""
-              />
-              <a href="#!">
-                <MDBMask overlay="white-slight" />
-              </a>
-            </MDBView>
-          </MDBCol>
-          <MDBCol lg="7">
-            <a href="#!" className="green-text">
-              <h6 className="font-weight-bold mb-3">
-                <MDBIcon icon="utensils" className="pr-2" />
-                Food
-              </h6>
-            </a>
-            <h3 className="font-weight-bold mb-3 p-0">
-              <strong>ต้มยำปลาหมึก</strong>
-            </h3>
-            <p>
-              อร่อยมากเลยค่า ปลาหมึกกรอบและสดมากค่า น้ำต้มยำก็แซ่บเหมาะกับคนที่ทานเผ็ด
-            </p>
-            <p>
-            
-              <a href="#!">
-                <strong>พิกัดร้านตากลมอาหารตามสั่ง</strong>
-              </a>
-              
-            </p>
-            </MDBCol>
-        </MDBRow>
-
-
-        {/* <MDBRow>
-          <MDBCol lg="5">
-            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-              <img
-                className="img-fluid"
-                src=" "
+                src=""
                 alt=""
               />
               <a href="#!">
@@ -173,15 +134,14 @@ return (
               
             </p>
             <p>
-              by
+            
               <a href="#!">
-                <strong> </strong>
+                <strong></strong>
               </a>
-              , 
+              
             </p>
             </MDBCol>
-        </MDBRow> */}
-
+        </MDBRow>      
       </MDBCardBody>
     </MDBCard>
   
